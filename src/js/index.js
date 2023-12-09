@@ -1,6 +1,7 @@
 //import react into the bundle
 import React from 'react'
 import {createRoot} from 'react-dom/client'
+import { Card } from "./component/Card.jsx";
 
 //include your index.scss file into the bundle
 import "../styles/index.css";
