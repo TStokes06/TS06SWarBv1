@@ -4,7 +4,7 @@ import { useParams } from "react-router";
 import {Context} from "../store/appContext";
 import "../../styles/index.css"
 
-export const Profile= (props) => {
+export const Profile = (props) => {
 const {store, actions} = useContext(Context);
 let params = useParams()
 let field

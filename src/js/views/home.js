@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
-import Card from ".Card.jsx";
+import Card from "../component/Card.jsx";
 import "../../styles/home.css";
 import PropTypes from "prop-types";
 
