@@ -25,7 +25,7 @@ const injectContext = PassedComponent => {
 			state.actions.fetchplanets();
 			state.actions.fetchvehicles();
 			state.actions.fetchpeople();
-		    state.actions.loadSomeData();
+		    // state.actions.loadSomeData();
 			
 			/**
 			 * EDIT THIS!

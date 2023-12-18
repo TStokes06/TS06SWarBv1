@@ -3,11 +3,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import  Profile  from "./views/Profile.jsx";
+import  {Profile}  from "./views/Profile.jsx";
 
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
-import { Card } from "./component/Card.jsx";
+// import { Card } from "./component/Card.jsx";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
