@@ -1,3 +1,39 @@
-/* 
-    General Styles
-*/
+.Profile-Top {
+    display: flex;
+    background-color: #212529;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+}
+.Profile-Image {
+    border-right: 3px solid #FFEF57;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.profile-text {
+    padding: 1%;
+}
+.Btn {
+    display:inline;
+}
+.card-row{
+    flex-wrap:nowrap;
+    overflow-x: scroll;
+    scroll-behavior:smooth;
+    padding-bottom: 1rem;
+}
+.profile-Bottom {
+    background-color: #212529;
+    
+    margin:auto;
+    width: 90%;
+    border-radius: 25px;
+    margin-top:1rem;
+}
+.col-3 {
+    border-right: 2px solid #FFEF57;
+}
+.right-border {
+    border:none;
+}

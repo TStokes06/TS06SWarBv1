@@ -34,15 +34,15 @@ const getState = ({ getStore, getActions, setStore }) => {
                 setStore({vehicles:data.results});
             },
             addfavorites: (name) => {
-                const favorites = getStore().favorites.slice();
-                favorites.push(name);
-                setStore({ favorites: favorites });
+                const favorites = [...getStore().favorites, name];
+                 setStore({ favorites });
             },
             removefavorites: (index) => {
-                const favorites = getStore().favorites.slice();
-                favorites.splice(index, 1);
-                setStore({ favorites: favorites });
+                 const favorites = [...getStore().favorites];
+                 favorites.splice(index, 1);
+                setStore({ favorites });
             },
+
         },
     };
 };

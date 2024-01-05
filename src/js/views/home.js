@@ -14,12 +14,12 @@ export const Home = () => {
 		// const {store} = useContext(Context);
 			<div>
 				<div className ="container">
-				<h2>characters</h2>
-				<div className ="row">{store.people.map((person, index) => <Card key ={index} person ={person} type = "person"/>)}</div>
-				<h2>vehicles</h2>
-				<div className ="row">{store.vehicles.map((vehicle, index) => <Card key ={index} vehicle ={vehicle} type = "vehicle"/>)}</div>
-				<h2>planets</h2>
-				<div className ="row">{store.planets.map((planet, index) => <Card key ={index} planet ={planet} type = "planet"/>)}</div>
+				<h2 className = "text-white">characters</h2>
+				<div className ="row card-row">{store.people.map((person, index) => <Card key ={index} index = {index} person ={person} type = "person"/>)}</div>
+				<h2 className = "text-white">vehicles</h2>
+				<div className ="row card-row">{store.vehicles.map((vehicle, index) => <Card key ={index} index = {index} vehicle ={vehicle} type = "vehicle"/>)}</div>
+				<h2 className ="text-white">planets</h2>
+				<div className ="row card-row">{store.planets.map((planet, index) => <Card key ={index} index ={index} planet ={planet} type = "planet"/>)}</div>
 				</div>
 			</div>		
 	)
