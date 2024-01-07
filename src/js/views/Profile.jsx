@@ -35,10 +35,10 @@ export const Profile = (props) => {
                     recusandae alias error harum maxime adipisci amet laborum.</p>
                 </div>
                 <div className = "profile-Bottom row">
-                    <div className = "text-warning col-3">birth year</div>
-                    <div className = "text-warning col-3">{item.birth_year}</div>
-                    <div className = "text-warning col-3">{item.gender}</div>
-                    <div className = "text-warning col-3 right-border">{item.height}</div>
+                    <div className = "text-warning col-3">Mass:{item.mass}</div>
+                    <div className = "text-warning col-3">Year of Birth:{item.birth_year}</div>
+                    <div className = "text-warning col-3">Gender:{item.gender}</div>
+                    <div className = "text-warning col-3 right-border">Height:{item.height}</div>
                 </div>
             </div>
         );
@@ -67,10 +67,10 @@ export const Profile = (props) => {
                     recusandae alias error harum maxime adipisci amet laborum.</p>
                 </div>
                 <div className = "profile-Bottom row">
-                    <div className = "text-warning col-3">{item.name}</div>
-                    <div className = "text-warning col-3">{item.model}</div>
-                    <div className = "text-warning col-3">{item.manufacturer}</div>
-                    <div className = "text-warning col-3 right-border">{item.cost_in_credits}</div>
+                    <div className = "text-warning col-3">Vehicle{item.name}</div>
+                    <div className = "text-warning col-3">Model{item.model}</div>
+                    <div className = "text-warning col-3">Manufacture{item.manufacturer}</div>
+                    <div className = "text-warning col-3 right-border">Cost{item.cost_in_credits}</div>
                 </div>
             </div>
         );
@@ -101,9 +101,9 @@ export const Profile = (props) => {
                 <div className = "profile-Bottom row">
 
                     <div className = "text-warning col-3">Name: {item.name}</div>
-                    <div className = "text-warning col-3">{item.rotaion_period}</div>
-                    <div className = "text-warning col-3">{item.orbital_period}</div>
-                    <div className = "text-warning col-3 right-border">{item.diameter}</div>
+                    <div className = "text-warning col-3">Rotation{item.rotation_period}</div>
+                    <div className = "text-warning col-3">Orbital{item.orbital_period}</div>
+                    <div className = "text-warning col-3 right-border">Diameter{item.diameter}</div>
                     {/* <div className = "text-warning col-3">{item.climate}</div>
                     <div className = "text-warning col-3">{item.gravity}</div>
                     <div className = "text-warning col-3">{item.terrain}</div>

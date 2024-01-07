@@ -29,7 +29,7 @@ export const Navbar = () => {
           <ul class="dropdown-menu dropdown-menu-dark">
 			{store.favorites.map((item,index) => {
 				return (
-					<li key ={index}>
+					<li className = "navFav" key ={index}>
 						<span className ="dropdown-item pe-1 text-warning">{item+" "}
 						<button className = "Btn btn-secondary btn text-warning" onClick={()=>actions.removefavorites(index)}>
 							Delete Fav

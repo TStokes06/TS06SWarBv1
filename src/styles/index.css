@@ -37,3 +37,8 @@
 .right-border {
     border:none;
 }
+.navFav {
+    display: flex;
+    justify-content: space-between;
+    
+}
